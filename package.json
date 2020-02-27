@@ -1,0 +1,44 @@
+{
+	"name": "rustpunk",
+	"displayName": "RustPunk - Extream Extension Pack",
+	"description": "An extreamly opiniated set of Visual Studio Code extensions for Rust",
+	"version": "0.1.0",
+	"publisher": "gilescope",
+	"icon": "icon.jpg",
+	"galleryBanner": {
+		"color": "#f0efe7",
+		"theme": "light"
+	},
+	"engines": {
+		"vscode": "^1.42.0"
+	},
+	"keywords": [
+		"rust",
+		"rustc",
+		"cargo",
+		"crate",
+		"punk"
+	],
+	"categories": [
+		"Extension Packs"
+	],
+	"repository": {
+		"url": "https://github.com/gilescope/rustpunk"
+	},
+	"homepage": "https://github.com/gilescope/rustpunk",
+	"bugs": {
+		"url": "https://github.com/gilescope/rustpunk/issues"
+	},
+	"extensionPack": [
+		"gilescope.rust-in-peace",
+		"clerian.cyberdyne20xx",
+		"ritwickdey.liveserver",
+		"vscode-org-mode.org-mode",
+		"rafamel.subtle-brackets",
+		"eamodio.gitlens",
+		"k--kato.intellij-idea-keybindings"
+	],
+	"dependencies": {
+		"vsce": "^1.73.0"
+	}
+}
