@@ -2,7 +2,7 @@
 	"name": "rustpunk",
 	"displayName": "RustPunk - Extream Extension Pack",
 	"description": "An extreamly opiniated set of Visual Studio Code extensions for Rust",
-	"version": "0.1.0",
+	"version": "0.2.2",
 	"publisher": "gilescope",
 	"icon": "icon.jpg",
 	"galleryBanner": {
@@ -31,14 +31,15 @@
 	},
 	"extensionPack": [
 		"gilescope.rust-in-peace",
-		"clerian.cyberdyne20xx",
-		"ritwickdey.liveserver",
-		"vscode-org-mode.org-mode",
+		"gilescope.correctdefaults",
+		"gilescope.cyberdyne20xx-rust-edition",
+		"streetsidesoftware.code-spell-checker",
+		"wayou.vscode-todo-highlight",
+		"nhoizey.gremlins",
 		"rafamel.subtle-brackets",
-		"eamodio.gitlens",
 		"k--kato.intellij-idea-keybindings"
 	],
 	"dependencies": {
-		"vsce": "^1.73.0"
+		"vsce": "^1.74.0"
 	}
 }
